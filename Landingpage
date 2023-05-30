@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Landing Page</title>
+        <style type="text/css">
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-image:url("img1.htm");
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position:scroll;
+            }
+            nav{
+               width:100%;
+               height:100px;
+               background-size:cover;
+               color:lightpink;
+               display:flex;
+               justify-content:space-around;
+               align-items:center;
+               font-family:cursive;
+            }
+            .hed a{
+                 font-size:20px;
+                 letter-spacing:2px;
+                 color:lightpink;
+                 float:left;
+            }
+           .hed1 a{
+               position:relative;
+               text-decoration:none;
+               font-size:20px;
+               padding:10px 20px;
+               color:lightpink;
+            }
+            .hed3{
+                   padding-up:10000px;
+                   }
+       </style>
+       </head>
+       <body>
+          <nav>
+             <div class="hed">
+           <a href="https://www.talkspace.com/" target="_blank"><b>T</b>alk<b>S</b>pace
+            </div>
+            <div class="hed1">
+             <a href="https://www.talkspace.com/#how" target="_blank">How it works</a>
+             <a href="https://business.talkspace.com/" target="_blank">Business</a>
+             <a href="https://www.talkspace.com/join-our-network" target="_blank">Join Our Network</a>
+              <a href="https://app.talkspace.com/" target="_blank">Log In</a>
+              <a href="https://match.talkspace.com/flow/90/step/1?cta_source=nav_cta_get_started" target="_blank">Get Started</a>
+           </div>
+           <div class="hed3">
+             <p>write your e-mail here</p>
+             <input type="email" id="email"><br><br>
+             <button type="submit"  onclick="alert('Thank You!')">Submit</button>
+             </div>
+           </nav>
+       </body>
+       
+</html>
